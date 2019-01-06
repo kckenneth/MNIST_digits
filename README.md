@@ -4,11 +4,11 @@ As at 2019, it would be cliche to rehash how we classify the digits (0 to 9) fro
 
 In this project, I tested all the statistical tools to predict the MNIST Digits. There are a couple of things that we should be aware of. 
 
-1. MNIST digit dataset is very clean and pre-processed. 
+## 1. MNIST digit dataset is very clean and pre-processed. 
 - each image is 28 x 28 pixels. 
 - each image is trimmed in such a way that a digit appear in the middle of the image. 
 
-2. K-nearest neighbor (KNN) 
+## 2. K-nearest neighbor (KNN) 
 - KNN works well, giving us the accuracy at 87%. 
 - If we improve our training models by Gaussian blurring, the accuracy hits to 90%. 
 
