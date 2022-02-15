@@ -1,12 +1,12 @@
 # MNIST_digits
 
-As at 2019, it would be cliche to rehash how we classify the digits (0 to 9) from MNIST dataset. However I found that it should be a pre-requisite for those who wants to learn what is machine learning, how important it is to grasp the statistical modeling and how far we have marched towards to AI arena under the guise of neural net coated ML algorithm. 
+As at 2019, it would be cliche to rehash how we classify the digits (0 to 9) from MNIST dataset. However I found that it should be a pre-requisite for those who want to learn what is machine learning, how important it is to grasp the statistical modeling and how far we have progressed to AI arena under the guise of neural net coated ML algorithms. 
 
 In this project, I tested all the statistical tools to predict the MNIST Digits. There are a couple of things that we should be aware of. 
 
 ### 1. MNIST digit dataset is very clean and pre-processed. 
 - each image is 28 x 28 pixels. 
-- each image is trimmed in such a way that a digit appear in the middle of the image. 
+- each image is trimmed in such a way that a digit (illustrated by pixel values) exists at the center of the trimmed image. 
 
 ### 2. K-nearest neighbor (KNN) 
 - KNN works well, giving us the accuracy at 87%. 
